@@ -1,0 +1,59 @@
+.write {
+  padding-top: 50px;
+}
+
+.write-form {
+  position: relative;
+}
+
+.write-form-group {
+  margin-left: 150px;
+  display: flex;
+}
+
+.write-icon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  color: #777;
+  cursor: pointer;
+}
+
+.write-icon:hover {
+  color: palevioletred;
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+.write-input {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.write-input:focus {
+  outline: none;
+}
+
+.write-text {
+  font-size: 20px;
+}
+
+.write-submit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: palevioletred;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.write-submit:hover {
+  background-color: #333;
+  transition: all 0.2s ease;
+}
